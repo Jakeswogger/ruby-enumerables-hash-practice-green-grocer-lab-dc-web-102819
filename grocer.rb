@@ -20,7 +20,7 @@ def apply_coupons(cart, coupons)
   coupons.each do |coupon| 
     coupon.each do |a, b| 
       item = coupon[:item]
-      p item 
+      if cart[item] && 
     end
   end
 end
